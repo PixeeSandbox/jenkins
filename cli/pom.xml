@@ -77,6 +77,12 @@
       <artifactId>slf4j-jdk14</artifactId>
       <optional>true</optional>
     </dependency>
+    <!-- Tier 3 (used, replaceable): commons-text 1.9 for SCA benchmark testing -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-text</artifactId>
+      <version>1.9</version>
+    </dependency>
     <dependency>
       <groupId>com.github.spotbugs</groupId>
       <artifactId>spotbugs-annotations</artifactId>

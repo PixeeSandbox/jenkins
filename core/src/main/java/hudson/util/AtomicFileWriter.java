@@ -45,6 +45,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import jenkins.util.SystemProperties;
+import org.apache.commons.compress.archivers.ArchiveEntry;
 
 /**
  * Buffered {@link FileWriter} that supports atomic operations.

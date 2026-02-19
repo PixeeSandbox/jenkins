@@ -62,6 +62,7 @@ import java.util.logging.Logger;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
+import org.apache.commons.text.StringEscapeUtils;
 import org.glassfish.tyrus.client.ClientManager;
 import org.glassfish.tyrus.client.ClientProperties;
 import org.glassfish.tyrus.client.SslEngineConfigurator;
@@ -531,7 +532,7 @@ public class CLI {
         } catch (IOException e) {
             e.printStackTrace(); // if the version properties is missing, that's OK.
         }
-        return props.getProperty("version", "?");
+        return StringEscapeUtils.escapeJava(props.getProperty("version", "?"));
     }
 
     /**

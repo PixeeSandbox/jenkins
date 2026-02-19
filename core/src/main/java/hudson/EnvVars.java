@@ -44,6 +44,7 @@ import java.util.TreeSet;
 import java.util.UUID;
 import java.util.logging.Logger;
 import jenkins.security.MasterToSlaveCallable;
+import org.apache.commons.compress.archivers.ArchiveEntry;
 
 /**
  * Environment variables.

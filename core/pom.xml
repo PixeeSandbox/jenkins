@@ -410,6 +410,18 @@ THE SOFTWARE.
       <artifactId>xpp3</artifactId>
       <version>1.1.4c</version>
     </dependency>
+    <!-- Tier 1 (declared only): log4j-core 2.14.1 for SCA benchmark testing -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.14.1</version>
+    </dependency>
+    <!-- Tier 2 (imported, unused): commons-compress 1.20 for SCA benchmark testing -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-compress</artifactId>
+      <version>1.20</version>
+    </dependency>
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
